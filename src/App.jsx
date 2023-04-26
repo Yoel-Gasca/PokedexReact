@@ -1,4 +1,6 @@
 import { AppRouter } from "./AppRouter";
+import { PokemonContext } from "./context/PokemonContext";
+import { PokemonProvider } from "./context/PokemonProvider";
 
 /* INSTRUCCIONES
   Comandos usados:
@@ -12,7 +14,11 @@ import { AppRouter } from "./AppRouter";
 -> npm run dev -> Ejecuta la aplicacion
 */
 function App() {
-  return <AppRouter />;
+  return (
+    <PokemonProvider>
+      <AppRouter />
+    </PokemonProvider>
+  );
   
 }
 
