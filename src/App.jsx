@@ -1,3 +1,5 @@
+import { AppRouter } from "./AppRouter";
+
 /* INSTRUCCIONES
   Comandos usados:
 -> npm init vite -> inicia un proyecto con vite 
@@ -10,7 +12,7 @@
 -> npm run dev -> Ejecuta la aplicacion
 */
 function App() {
-  return <div className="App"></div>;
+  return <AppRouter />;
   
 }
 
