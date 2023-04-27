@@ -14,7 +14,7 @@ export const Navigation = () => {
             <>
                 <header className='container'>
                     <Link to='/' className='logo'>
-                        <img src='https://raw.githubusercontent.com/Yoel-Gasca/PokedexReact/main/src/assets/img/Pok%C3%A9dex_logo.png' alt='Logo Pokedex'/>
+                        <img src='https://raw.githubusercontent.com/Yoel-Gasca/PokedexReact/main/src/assets/img/Pokedex_logo.png' alt='Logo Pokedex'/>
                     </Link>
 
                     {/*onSubmit={onSearchSubmit}*/}
