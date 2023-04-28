@@ -2,22 +2,22 @@
 
 :root {
 	--color-fire: #ff7402;
-	--color-grass: #9bcc50;
+	--color-grass: #84da04;
 	--color-steel: #9eb7b8;
 	--color-water: #4592c4;
 	--color-psychic: #f366b9;
 	--color-ground: #ab9842;
 	--color-ice: #51c4e7;
-	--color-flying: #3dc7ef;
+	--color-flying: #17bfed;
 	--color-ghost: #4d5b64;
-	--color-normal: #a4acaf;
+	--color-normal: #4d4f50;
 	--color-poison: #7e0058;
-	--color-rock: #a38c21;
+	--color-rock: #1f2847;
 	--color-fighting: #d56723;
-	--color-dark: #707070;
+	--color-dark: #323232;
 	--color-bug: #729f3f;
 	--color-dragon: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
-	--color-electric: #bba909;
+	--color-electric: #fde400;
 	--color-fairy: #fdb9e9;
 	--color-shadow: #7b62a3;
 	--color-unknow: #757575;
@@ -70,7 +70,7 @@ header form {
 	align-items: center;
 	gap: 10px;
 
-	border: 1px solid #555;
+	border: 1px solid #fefcfc;
 	padding: 15px 20px;
 	border-radius: 25px;
 }
@@ -87,7 +87,7 @@ header form {
 .icon-search {
 	width: 20px;
 	height: 20px;
-	stroke: #555;
+	stroke: #fef9f9;
 }
 
 .btn-search {
@@ -141,7 +141,7 @@ header form {
 }
 
 .card-img {
-	background-color: #f2f2f2;
+	background-color: #4f4f4f;
 
 	display: flex;
 	align-items: center;
@@ -160,12 +160,12 @@ header form {
 }
 
 .card-info h3 {
-	color: #333;
+	color: #fcfcfc;
 }
 
 .pokemon-id {
 	display: block;
-	color: #888;
+	color: #b4aeae;
 	margin-bottom: 15px;
 }
 
@@ -179,80 +179,97 @@ header form {
 	font-size: 12px;
 	padding: 5px 20px;
 	border-radius: 5px;
-	color: #fff;
 }
 
 /* Types of Pokemon */
 .water {
 	background-color: var(--color-water);
+	color: #fff;
 }
 
 .grass {
 	background-color: var(--color-grass);
+	color: #000000;
 }
 
 .poison {
 	background-color: var(--color-poison);
+	color: #fff;
 }
 
 .fire {
 	background-color: var(--color-fire);
+	color: #fff;
 }
 
 .bug {
 	background-color: var(--color-bug);
+	color: #fff;
 }
 
 .dragon {
 	background: var(--color-dragon);
+	color: #fff;
 }
 
 .flying {
 	background-color: var(--color-flying);
+	color: #000000;
 }
 
 .ground {
 	background-color: var(--color-ground);
+	color: #fff;
 }
 
 .steel {
 	background-color: var(--color-steel);
+	color: #000000;
 }
 
 .psychic {
 	background-color: var(--color-psychic);
+	color: #000000;
 }
 
 .ice {
 	background-color: var(--color-ice);
+	color: #000000;
 }
 
 .ghost {
 	background-color: var(--color-ghost);
+	color: #fff;
 }
 
 .normal {
 	background-color: var(--color-normal);
+	color: #fff;
 }
 
 .rock {
 	background-color: var(--color-rock);
+	color: #fff;
 }
 
 .electric {
 	background-color: var(--color-electric);
+	color: #000000;
 }
 
 .fighting {
 	background-color: var(--color-fighting);
+	color: #000000;
 }
 
 .fairy {
 	background-color: var(--color-fairy);
+	color: #000000;
 }
 
 .dark {
 	background-color: var(--color-dark);
+	color: #fff;
 }
 
 /* Container Filters */

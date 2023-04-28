@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-export const CardPokemon = () =>{
-    return(
+export const CardPokemon = ({ pokemon }) => {
+    return (
         <Link to={`/pokemon/${pokemon.id}`} className='card-pokemon'>
 			<div className='card-img'>
 				<img
