@@ -1,2 +1,2 @@
 # PokedexReact
-Pockedex desarrollada con Vite + React
+Pokédex desarrollada con Vite + React
