@@ -405,6 +405,10 @@ Styles of Pokemon Single Page
 	font-size: 60px;
 }
 
+.container-info-pokemon h2{
+	color: red;
+}
+
 .info-pokemon {
 	display: flex;
 	justify-content: space-between;
