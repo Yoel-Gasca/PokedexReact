@@ -1,7 +1,8 @@
 # PokedexReact
 Pokédex desarrollada con Vite + React
 
-![image](https://user-images.githubusercontent.com/83617933/235281071-d84f0058-0e18-4ee2-9225-a715e36ad724.png)
+![image](https://user-images.githubusercontent.com/83617933/236365875-598e1d17-e915-423f-81c6-ce636767c9d3.png)
+
 
 # React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
