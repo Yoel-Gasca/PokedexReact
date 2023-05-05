@@ -1,13 +1,25 @@
 import { useContext } from 'react';
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Link, Outlet, useNavigate } from 'react-router-dom';
 import { PokemonContext } from '../context/PokemonContext';
 import logo from '../assets/img/Pokedex_logo.png';
 
 export const Navigation = () => {
 
     // Proporciona la informacion del provider
-    const {} = useContext(PokemonContext)
+    const {onInputChange, valueSearch, onResetForm} = useContext(PokemonContext);
+
+    const navigate = useNavigate();
+
+    const onSearchSubmit = (e) => {
+        e.preventDefault();
+        navigate('/Search', {
+            state: valueSearch
+        });
+
+        onResetForm();
+    };
+
 
     return (
             //Estructura en HTML 
@@ -17,8 +29,7 @@ export const Navigation = () => {
                         <img src='https://raw.githubusercontent.com/Yoel-Gasca/PokedexReact/main/src/assets/img/Pokedex_logo.png' alt='Logo Pokedex'/>
                     </Link>
 
-                    {/*onSubmit={onSearchSubmit}*/}
-                    <form >
+                    <form onSubmit={onSearchSubmit}>
                         <div className='form-group'>
                             <svg
                                 // Icono de busqueda
@@ -41,8 +52,8 @@ export const Navigation = () => {
                                 type='search'
                                 name='valueSearch'
                                 id=''
-                                //value={valueSearch}
-                                //onChange={onInputChange}
+                                value={valueSearch}
+                                onChange={onInputChange}
                                 placeholder='Buscar nombre de pokemon'
                             />
                         </div>

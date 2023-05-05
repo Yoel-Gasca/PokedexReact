@@ -6,6 +6,7 @@ import { Loader } from "../components/Loader";
 
 export const PokemonPage = () => {
 
+	// Variables que importan la informacion del pokemon
     const {getPokemonByID} = useContext(PokemonContext)
 
     const [loading, setLoading] = useState(true)
@@ -24,6 +25,7 @@ export const PokemonPage = () => {
     }, [])
     
     return (
+		//Estructura en HTML
         <main className="container mainpokemon">
             {loading ? (
 				<Loader />
@@ -107,11 +109,10 @@ export const PokemonPage = () => {
 							</div>
 						</div>
 					</div>
-					
 
 					<div className='header-main-pokemon'>
 						<div className='container-info-pokemon-shiny'>
-							<h2>Aspecto Tipo Shiny</h2>
+							<h2>Aspecto Tipo Shiny de {primerMayuscula(pokemon.name)}</h2>
 							<h3>★</h3>
 						</div>
 						<div className='container-img-pokemon-shiny'>
