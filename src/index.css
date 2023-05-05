@@ -372,7 +372,7 @@ Styles of Pokemon Single Page
 
 .number-pokemon {
 	position: absolute;
-	top: -130px;
+	top: -85px;
 	left: 0;
 
 	font-size: 200px;
@@ -384,7 +384,7 @@ Styles of Pokemon Single Page
 	order: 2;
 	flex: 1;
 	padding: 25px 25px 25px 0;
-	height: 400px;
+	height: 550px;
 }
 
 .container-img-pokemon img {
@@ -405,9 +405,7 @@ Styles of Pokemon Single Page
 	font-size: 60px;
 }
 
-.container-info-pokemon h2{
-	color: red;
-}
+
 
 .info-pokemon {
 	display: flex;
@@ -425,6 +423,35 @@ Styles of Pokemon Single Page
 .group-info p {
 	font-weight: 700;
 	font-size: 20px;
+}
+
+/*Tipo Shiny*/
+.container-info-pokemon-shiny {
+	display: flex;
+	flex-direction: column;
+
+	flex: 1;
+}
+
+.container-info-pokemon-shiny h2{
+	text-align: right;
+	order: 1;
+}
+.container-info-pokemon-shiny h3{
+	color: red;
+	text-align: right;
+	order: 2;
+}
+
+.container-img-pokemon-shiny {
+	flex: 1;
+	padding: 25px 25px 25px 0;
+	height: 550px;
+}
+
+.container-img-pokemon-shiny img {
+	height: 50%;
+	width: 50%;
 }
 
 /* Stats */
