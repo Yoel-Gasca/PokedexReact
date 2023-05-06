@@ -23,6 +23,7 @@
 	--color-unknow: #757575;
 
 	--color-primary: #007377;
+	--color-btn: #880e0e;
 	--color-primary-hover: #83c5be;
 
   color-scheme: light dark;
@@ -97,7 +98,7 @@ header form {
 	padding: 15px 30px;
 	font-family: inherit;
 	color: #fff;
-	background-color: var(--color-primary);
+	background-color: var(--color-btn);
 	cursor: pointer;
 	font-weight: 500;
 	letter-spacing: 2px;
@@ -519,7 +520,7 @@ Styles of Pokemon Single Page
 	border: none;
 	padding: 15px 40px;
 	font-family: inherit;
-	background-color: var(--color-primary);
+	background-color: var(--color-btn);
 	color: #fff;
 	border-radius: 10px;
 	cursor: pointer;
