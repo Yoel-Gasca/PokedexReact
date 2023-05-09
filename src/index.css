@@ -164,37 +164,6 @@ header form {
 	color: #fcfcfc;
 }
 
-h3{
-	color: red;
-}
-
-.card-img2 {
-	background-color: #4f4f4f;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 5px;
-	height: 250px;
-}
-
-.card-img2 img {
-	width: 100%;
-	height: 100%;
-}
-
-.card-info2 {
-	padding: 15px;
-}
-
-.card-info2 h3 {
-	color: #ffffff;
-}
-
-.card-info2 h4 {
-	color: #ff0000;
-}
-
 .pokemon-id {
 	display: block;
 	color: #b4aeae;
