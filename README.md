@@ -1,7 +1,9 @@
 # PokedexReact
-Pokédex desarrollada con Vite + React
+En el mundo ficticio de Pokémon, la PokéDex es una enciclopedia electrónica portátil que los entrenadores Pokémon llevan consigo para registrar automáticamente las fichas de todas las diversas especies Pokémon vistas y capturadas durante su viaje como entrenadores.​​
 
 ![image](https://user-images.githubusercontent.com/83617933/236365875-598e1d17-e915-423f-81c6-ce636767c9d3.png)
+
+En esta app de la PokéDex se puede consultar todos los Pokémons existentes, ademas de que se puede visualizar las estadisticas generales de cada uno, algunos aspectos de edicion especial, como tambien se puede observar el aspecto tipo Shiny de cada pokemon existente.
 
 
 # React App
