@@ -1,6 +1,11 @@
 # PokedexReact
 En el mundo ficticio de la serie de anime Pokémon, la PokéDex es una enciclopedia electrónica portátil que los entrenadores Pokémon llevan consigo para registrar automáticamente las fichas de todas las diversas especies Pokémon vistas y capturadas durante su viaje como entrenadores Pokémon.​​
 
+Da click <a href="https://yoel-gasca.github.io/PokedexReact/">aquí</a> para entrar a la PokéDex
+
+
+
+
 ![image](https://user-images.githubusercontent.com/83617933/236365875-598e1d17-e915-423f-81c6-ce636767c9d3.png)
 
 En esta app de la PokéDex se puede consultar todos los Pokémons existentes, además de que se puede visualizar las estadísticas generales de cada uno, algunos aspectos especiales y también se puede observar el aspecto tipo Shiny de cada Pokémon existente.
