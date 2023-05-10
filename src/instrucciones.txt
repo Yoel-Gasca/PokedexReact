@@ -10,4 +10,12 @@
 -> npm run dev -> Ejecuta la aplicacion
   Desplegar en GitHub Pages
 -> npm i gh-pages --save-dev - Instala GHpages
+-> npm run deploy - hace el deploy de la aplicacion
+-> Agregar lo siguiente al archivo package.json en la seccion scripts:
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  -> Y actualizar el build con lo siguiente:
+    "build": "vite build --base=/NombredeRepo/"
+
+
 */
