@@ -29,6 +29,6 @@ En esta app de la PokéDex se puede consultar todos los Pokémons existentes, ad
 ## Tecnologías utilizadas para este proyecto:<br/>
 - Libreria de JS utilizada: React<br>
 - Entorno de desarrollo: ViteJS<br/>
-- Plataforma del juego: Web <br/>
+- Plataforma de la app: Web <br/>
 - Lenguaje de programación utilizado: JavaScript <br/> <br/>
 
