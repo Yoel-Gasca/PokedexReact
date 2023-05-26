@@ -26,4 +26,9 @@ En esta app de la PokéDex se puede consultar todos los Pokémons existentes, ad
 
 ![image](https://user-images.githubusercontent.com/83617933/236986152-f9399278-9064-4aa0-98a2-7e939fb77d74.png)  ![image](https://user-images.githubusercontent.com/83617933/236986840-a70588f6-d3ec-4509-aa70-9cac1a4e43ee.png)  ![image](https://user-images.githubusercontent.com/83617933/236986481-016aad09-9aa0-4aa6-9a6a-62ac84e53c59.png)  ![image](https://user-images.githubusercontent.com/83617933/236986670-6c7902c1-5cfd-415c-a285-e46d8c021fa9.png)
 
+## Tecnologías utilizadas para este proyecto:<br/>
+- Libreria de JS utilizada: React<br>
+- Entorno de desarrollo: ViteJS<br/>
+- Plataforma del juego: Web <br/>
+- Lenguaje de programación utilizado: JavaScript <br/> <br/>
 
